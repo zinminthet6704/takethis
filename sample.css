@@ -1,0 +1,38 @@
+.roomContainer{
+    /*max-width: 362.292px;
+    max-height: 700px;
+
+    width: var(--roomContainerMaxWidth);*/
+    /* height: var(--roomContainer MaxHeight); */
+    width: auto;
+    height: auto;
+
+    
+}
+
+.allRoomContainer{
+    width: auto;
+    max-width: 970px;
+    height: auto;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   
+    margin: 0 auto;
+    
+}
+/*danger started */""
+
+.similarRoom{
+    width: auto;
+    max-width: 970px;
+    height: auto;
+  
+    
+}
+
+.similarRoom > p{
+    font-size: 2rem;
+    padding-bottom: 5px;
+    text-align: center;
+}

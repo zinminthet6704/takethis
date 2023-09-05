@@ -1,0 +1,193 @@
+:root{  
+    --allContainer: 771.583px;
+
+}
+:root{
+
+    /* syntax
+    classname+propertyCaptial */
+
+    --roomContainerMaxWidth: 362.292px;
+    --roomContainerMaxHeight: 589.833px;
+    --imgWidth: 300.625px;
+    --imgHeight: 173.833; 
+    --imgPadding: 30px;
+    --roomCommerceWidth: 300.625px;
+    --roomCommerceHeight: 293.33px;
+    --roomCommercePadding: 30px;
+    --checkMaxWidth: 333.292px;
+    --checkMaxHeight: 400px;
+    --bookingRoomContainerWidth: 1180px;
+
+    --roomOverallContainerMaxWidth: 724.584px;
+}
+
+
+.allContainer{
+    width: auto;
+    max-width: 100%; 
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 5fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "roomContainer infoContainer";
+    border: 1px solid black;
+    grid-column-gap: 10px;
+    
+}
+
+.roomContainer{
+    grid-area: roomContainer;
+}
+
+.infoContainer{
+    grid-area: infoContainer;
+    width: auto;
+    height:500px;
+    border: 1px solid green;
+    height: auto;  
+   
+   
+}
+body{
+    border: 1px solid limegreen;
+}
+
+label{
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    overflow-wrap: break-word;
+
+}
+
+span.checked{
+    background-color: #6b6978;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    overflow-wrap: break-word;
+}
+
+span.bolds{
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+}
+
+
+
+.finalHeading{
+    margin-top: 0px;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-family: Roboto, sans-serif;
+    overflow-wrap: break-word;
+    background-color: rgb(107, 105, 120);
+    width: 100%;
+    /* width: 800.583px; */
+}
+
+
+table.info , table.info input, table.info label,table.info textarea{
+    width: 95%;
+}
+table.info input[type="text"], textarea{
+    padding: 10px 0; 
+}
+
+
+table.info input[type="checkbox"]{
+    display: inline;
+    border: 1px solid green;
+}
+
+.extraService table{
+    margin: 0 auto;     
+}
+
+/* *{
+    border: 1px solid green;
+} */
+
+a.final{
+    text-decoration: none;
+    color: white;
+
+}
+
+h2{
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    cursor: pointer;
+    display: block;
+    font-family: "Gilda Display", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    overflow-wrap: break-word;
+}
+
+
+
+.roomContainer{
+    max-width: 362.292px;
+    max-height: 700px;
+
+    width: var(--roomContainerMaxWidth);
+    /* height: var(--roomContainer MaxHeight); */
+    height: 700px;
+
+    border: 1px solid red;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.roomCommerce{
+    max-width: var(--roomCommerceWidth);
+    max-height: var(--roomCommerceHeight);
+    /* border: 1px solid green; */
+    padding: var(--roomCommercePadding);
+    margin-top: -5px; 
+}
+
+
+.iconImg{
+    width: 24px;
+    padding: 0px;
+    height: auto;
+    border-bottom-color: rgb(92,92,92);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1px;
+    vertical-align: middle;
+
+}
+
+
+
+
+input[type="button"]{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid black;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}

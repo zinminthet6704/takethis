@@ -1,0 +1,131 @@
+
+p.marketingText{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300px;
+    display: block;
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    overflow-wrap: break-word;
+}
+
+.roomSizeMeasures{
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    
+    display: table-cell;
+
+    font-size: 12px;
+    font-weight: 300;
+    height: 23px; 
+    letter-spacing: 1px;
+    line-height: 12px;
+    overflow-wrap: break-word;
+    vertical-align: middle;
+}
+
+.iconImg{
+    width: 24px;
+    padding: 0px;
+    height: auto;
+    border-bottom-color: rgb(92,92,92);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    letter-spacing: 2px;
+    line-height: 11px;
+    text-align: center;
+    font-weight: 300;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    /* border: 1px solid green; */
+    padding: 8px; 
+}
+
+
+
+h2.roomSizeCaption{
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    cursor: pointer;
+    display: block;
+    font-family: "Gilda Display", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    overflow-wrap: break-word;
+}
+
+
+.roomSizeMeasures{
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    
+    display: table-cell;
+
+    font-size: 12px;
+    font-weight: 300;
+    height: 23px; 
+    letter-spacing: 1px;
+    line-height: 12px;
+    overflow-wrap: break-word;
+    vertical-align: middle;
+}
+
+
+/*
+danger start
+*/
+
+
+.roomCommerce{
+    border: 1px solid black;
+    
+    padding: var(--roomCommercePadding);
+    margin-top: -5px; 
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.roomContainer{
+    width: auto;
+    height: auto;
+}
+
+.allRoomContainer{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid gold;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2em;
+    
+}
+
+
+
+
+input[type="button"]{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid black;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}

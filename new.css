@@ -1,0 +1,159 @@
+.zcontainer{
+    width: auto;
+   
+    max-width: 980px;
+   
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 650px 300px;
+    grid-template-rows: auto auto;
+    grid-column-gap: 12px;
+    
+}
+
+@media only screen and (max-width:435px){
+    .zcontainer{
+        display: block;
+    }
+}
+
+.smallSide{
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 100%;
+    border: 1px solid blue;
+   
+}
+
+.biggerSide{
+    width: auto;
+    max-width: 700px;
+    height: auto;
+    border: 1px solid chartreuse;
+    
+}
+
+#roomDescription{
+    width: auto;
+    max-width: 700px;
+    
+    /*
+    margin: 0 auto;
+    */
+}
+.newroomService{
+    width: auto;
+    max-width: 700px;
+    /*
+    margin: 0 auto;
+    */
+}
+
+.aroundHotel{
+    width: auto;
+    max-width: 700px;
+    /*
+    margin: 0 auto;
+    */
+}
+
+.allAroundHotelImgContainer{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    grid-column-gap: 5px;
+    
+}
+
+.newroomService table{
+    width: 90%;
+    height: auto;
+    /*
+    margin: 0 auto;
+    */
+}
+
+.newroomService table tr{
+    height: 40px;
+}
+
+.newroomService table tr td i{
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    
+    display: table-cell;
+    display: inline-block;
+
+    font-size: 12px;
+    font-weight: 300;
+    height: 23px; 
+    letter-spacing: 1px;
+    line-height: 12px;
+    overflow-wrap: break-word;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+#roomContainer img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+#roomContainer{
+    width: auto;
+    
+    max-width: 100%
+   
+    height: auto;
+}
+
+/*additional styles*/
+
+
+.marketingText{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300px;
+    display: block;
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    overflow-wrap: break-word;
+}
+
+
+
+
+/* ended */
+/*layout test*/
+
+/*
+.aroundHotel{
+    border: 1px solid black;
+}
+
+.newroomService{
+    border: 1px solid black;
+}
+
+#roomDescription{
+    border: 1px solid black;
+}
+*/
+/*layout test ended*//*  */
+
+body{
+    border: 1px solid black;
+}
+*{
+    border: 1px solid back;
+}
+
+
+.toAnimate{
+    text-align: center;
+    font-size: 3rem;
+}
